@@ -28,7 +28,7 @@ function App() {
           <Route path="/perfil" element={<Profile />} />
         </Routes>
       </Router>
-    </ThemeProvider>
+    // </ThemeProvider>
   )
 }
 
