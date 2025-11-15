@@ -10,6 +10,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <ThemeProvider theme={darkTheme}>
       <GlobalStyle />
       <App />
-      </ThemeProvider>
+    </ThemeProvider>
   </React.StrictMode>,
 )
