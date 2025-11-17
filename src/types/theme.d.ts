@@ -9,7 +9,7 @@ export interface Theme {
     alert: string
     alertColor: string
     alertHover: string
-    desabled: string
+    disabled: string
     disabledColor: string
     primary: string
     primaryColor: string
@@ -25,7 +25,7 @@ export interface Theme {
   textInput: {
     active: string
     activeColor: string
-    borerColor: string
+    boderColor: string
     disabled: string
     disabledBorderColor: string
     disabledColor: string
