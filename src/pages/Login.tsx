@@ -42,9 +42,7 @@ export default function Login() {
           </Grid>
 
           <Grid item sm={6} sx={{ display: { xs: 'none', sm: 'block' } }}>
-            <Container>
-              <BannerImage />
-            </Container>
+            <BannerImage />
           </Grid>
         </Grid>
       </Box>
