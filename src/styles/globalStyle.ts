@@ -9,7 +9,6 @@ export const GlobalStyle = createGlobalStyle<{ theme?: DefaultTheme }>`
         padding: 0;
         box-sizing: border-box;
         font-family: "Inter";
-        max-height: 100vh;
     }
 
 `
