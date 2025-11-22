@@ -6,8 +6,9 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
+    "build": "echo \"No build step\"",
     "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate dev"
+    "prisma:migrate": "prisma migrate deploy"
   },
   "dependencies": {
     "@prisma/client": "^6.1.0",
