@@ -6,8 +6,9 @@ export type MessageProps ={
     type: 'error' | 'success'
 }
 
-export interface FormComponentProps {
-    inputs: InputProps[]
-    buttons: ButtonProps[]
-    message?:  MessageProps
+export interface FormComponentProps<T extends Record<string> = Record<string, string>> {
+  inputs: InputProps[];
+  buttons: ButtonProps[];
+  message?: MessageProps | null;
+  onSubmit?: (data: T) => void;
 }

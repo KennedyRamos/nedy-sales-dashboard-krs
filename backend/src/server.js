@@ -1,13 +1,17 @@
-import express from "express"
-import cors from "cors"
-import userRoutes from "./routes/userRoutes.js"
+import express from "express";
+import cors from "cors";
 
-const app = express()
-app.use(cors())
-app.use(express.json())
+import userRoutes from "./routes/userRoutes.js";
+import authRoutes from "./routes/authRoutes.js";
 
-app.use("/users", userRoutes)
+const app = express();
+
+app.use(cors());
+app.use(express.json());
+
+app.use("/users", userRoutes);
+app.use("/auth", authRoutes);
 
 app.listen(3001, () => {
-  console.log("🔥 Backend rodando em http://localhost:3001")
-})
+  console.log("🔥 Backend rodando em http://localhost:3001");
+});
