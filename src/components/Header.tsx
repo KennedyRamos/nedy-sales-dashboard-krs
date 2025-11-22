@@ -24,7 +24,7 @@ export default function Header() {
                     height: pxToRem(64),
                 }}>
                     <Link to='/home'>
-                        <Logo height={35} whidth={35}></Logo>
+                        <Logo height={35} width={35}></Logo>
                     </Link>
                     
                     <Link to='/perfil'>
